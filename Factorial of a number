@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int fact=1,num;
+    printf("Enter number:-");
+    scanf("%d",&num);
+    while(num>0)
+    {
+        fact*=num;
+        num--;
+
+    }
+    printf("Factorial of given number is %d",fact);
+    return 0;
+}
